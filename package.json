@@ -4,13 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "echo 'No build step required'",
-    "test": "echo 'No tests specified' && exit 0"
+    "build": "echo 'Skipping build step, no frontend assets'",
+    "test": "echo 'No tests defined' && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.2"
   }
